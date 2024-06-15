@@ -9,10 +9,10 @@ import {
 
 const Hero = () => {
   return (
-    <section className=" flex items-center">
+    <section className="flex items-center py-5">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 flex flex-col items-start md:items-start text-left p-8">
-          <p className="text-xl">Hey There, Im</p>
+          <p className="text-xl ">Hey There, Im</p>
           <h1 className="text-4xl font-bold mb-2">Yasser Aziz Alfalah</h1>
           <div className="border-b-4 border-black w-full"></div>
           <div className="flex justify-between">
