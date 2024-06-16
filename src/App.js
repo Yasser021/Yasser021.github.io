@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import Hero from "./hero";
 import About from "./about";
 import Projek from "./projek";
+import Design from "./design";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </main>
       <About />
       <Projek/>
+      <Design/>
     </div>
   );
 }
