@@ -4,7 +4,7 @@ import kao from "./image/kao.jpg";
 const Projek = () => {
   return (
     <div className="py-5">
-      <section id="about" className="mt-10 container mx-auto py-5">
+      <section id="project" className="mt-10 container mx-auto py-5">
         <h1 className="text-3xl flex justify-center text-center font-semibold mb-5">
           Recent Project
         </h1>
