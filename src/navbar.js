@@ -9,11 +9,17 @@ const Navbar = () => {
           Home
         </a>
         <a href="#about" className="px-3 hover:text-gray-400">
-          About Me
+          About
+        </a>
+        <a href="#project" className="pe-3 hover:text-gray-400">
+          Portofolio
         </a>
         <img src={person} alt="person" className="h-10 w-10" />
-        <a href="#services" className="px-3 hover:text-gray-400">
-          Portofolio
+        <a href="#tech" className="ps-3 hover:text-gray-400">
+          Techstack
+        </a>
+        <a href="#skill" className="px-3 hover:text-gray-400">
+          Skills
         </a>
         <a href="#contact" className=" hover:text-gray-400">
           Contact
