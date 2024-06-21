@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="flex items-center py-5">
+    <section className="flex items-center py-5 h-auto">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 flex flex-col items-start md:items-start text-left p-8">
           <p className="text-xl ">Hey There, Im</p>
@@ -18,10 +18,7 @@ const Hero = () => {
           <div className="flex justify-between">
             <div className="pt-3 flex justify-between">
               <div className="outline rounded">
-                <a
-                  href="https://www.linkedin.com/in/yasser-aziz-alfalah/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/yasser-aziz-alfalah/">
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="h-7 w-7 px-5 py-4"
@@ -29,7 +26,7 @@ const Hero = () => {
                 </a>
               </div>
               <div className="outline rounded mx-3">
-                <a href="https://github.com/Yasser021" >
+                <a href="https://github.com/Yasser021">
                   <FontAwesomeIcon
                     icon={faGithub}
                     className="h-7 w-7 px-5 py-4"
@@ -46,7 +43,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex">
-                <button></button>
+              <button></button>
             </div>
           </div>
         </div>
