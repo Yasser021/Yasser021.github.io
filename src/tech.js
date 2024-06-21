@@ -13,7 +13,7 @@ import {
 
 const Tech = () => {
   return (
-    <div className="py-5">
+    <div className="py-5 mb-5">
       <section id="tech" className="mt-10 container mx-auto py-5">
         <h1 className="text-3xl flex justify-center text-center font-semibold mb-5">
           Tech Stack

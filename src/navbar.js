@@ -5,9 +5,6 @@ const Navbar = () => {
   return (
     <nav className="py-4 outline outline-slate-400">
       <div className="container mx-auto flex justify-center items-center h-16 space-x-4">
-        <a href="#home" className=" hover:text-gray-400">
-          Home
-        </a>
         <a href="#about" className="px-3 hover:text-gray-400">
           About
         </a>
@@ -18,10 +15,7 @@ const Navbar = () => {
         <a href="#tech" className="ps-3 hover:text-gray-400">
           Techstack
         </a>
-        <a href="#skill" className="px-3 hover:text-gray-400">
-          Skills
-        </a>
-        <a href="#contact" className=" hover:text-gray-400">
+        <a href="#contact" className="px-3 hover:text-gray-400">
           Contact
         </a>
       </div>

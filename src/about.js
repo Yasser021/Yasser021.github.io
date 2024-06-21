@@ -14,6 +14,7 @@ const About = () => {
           on various projects that honed my technical skills as well as the
           ability to work collaboratively in a team. I am excited to continue
           learning and contributing to the world of technology.
+          <br />
         </p>
       </section>
     </div>
