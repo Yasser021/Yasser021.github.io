@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="bg-black py-14 text-white">
-      <section id="contact" className="flex items-center py-5">
+      <section id="contact" className="flex items-center py-5 px-5 mx-5">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="md:w-1/2 flex flex-col items-start md:items-start text-left ">
-            <h1 className="text-6xl font-bold mb-3">Contact Me</h1>
+            <h1 className="text-5xl font-bold mb-3">Contact Me</h1>
             <div className="border-b-4 border-white w-full mb-5"></div>
             <p className="text-xl">
               Feel free to reach out to me. <br /> I look forward to connecting
