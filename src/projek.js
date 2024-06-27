@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./card";
-import kao from "./image/kao.jpg";
+import Tdgc from "./image/TDGC.png";
+import Smkn from "./image/Smkn.png";
+import Port from "./image/portofolio.png";
 const Projek = () => {
   return (
     <div className="py-5">
@@ -14,58 +16,76 @@ const Projek = () => {
               <Card
                 backgroundColor={"white"}
                 textColor={"gray"}
-                title="McLaundry"
+                title="TD Gaming center"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
-                tags={[ {
-                  label: "Bootstrap",
-                  color: "#9BA4B1",
-                  textColor: "white",
-                },
-                {
-                  label: "Laravel",
-                  color: "#9BA4B1",
-                  textColor: "white",
-                },]}
-              />
-            </div>
-            <div className="flex justify-center">
-              <Card
-                backgroundColor={"white"}
-                textColor={"gray"}
-                title="Virtualib"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
+                imageUrl={Tdgc}
                 tags={[
                   {
-                    label: "Bootstrap",
-                    color: "#9BA4B1",
+                    label: "TailwindCSS",
+                    color: "#38BDF8",
+                    textColor: "white",
+                  },
+                  {
+                    label: "ReactJS",
+                    color: "#55BCD3",
                     textColor: "white",
                   },
                   {
                     label: "Laravel",
-                    color: "#9BA4B1",
+                    color: "#FF2D20",
                     textColor: "white",
                   },
                 ]}
               />
             </div>
             <div className="flex justify-center">
+              <a
+                href="https://smkn4-tng.sch.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Card
+                  backgroundColor={"white"}
+                  textColor={"gray"}
+                  title="SMKN 4 Tangerang"
+                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+                  imageUrl={Smkn}
+                  tags={[
+                    {
+                      label: "TailwindCSS",
+                      color: "#38BDF8",
+                      textColor: "white",
+                    },
+                    {
+                      label: "ReactJS",
+                      color: "#55BCD3",
+                      textColor: "white",
+                    },
+                    {
+                      label: "Laravel",
+                      color: "#FF2D20",
+                      textColor: "white",
+                    },
+                  ]}
+                />
+              </a>
+            </div>
+            <div className="flex justify-center">
               <Card
                 backgroundColor={"white"}
                 textColor={"gray"}
-                title="Portofolio web"
+                title="Portofolio Web"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
+                imageUrl={Port}
                 tags={[
                   {
                     label: "TailwindCss",
-                    color: "#9BA4B1",
+                    color: "#38BDF8",
                     textColor: "white",
                   },
                   {
                     label: "ReactJs",
-                    color: "#9BA4B1",
+                    color: "#55BCD3",
                     textColor: "white",
                   },
                 ]}
