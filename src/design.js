@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./card";
-import kao from "./image/kao.jpg";
+import Tdgc from "./image/TDGC.png"
+import Smkn from "./image/Smkn.png"
+import Port from "./image/portofolio.png"
 const Design = () => {
   return (
     <div className="bg-black py-5">
@@ -15,9 +17,9 @@ const Design = () => {
                 backgroundColor={"#151515"}
                 titleColor={"white"}
                 textColor={"white"}
-                title="SMKN 4 Tangerang "
+                title="TD Gaming Center"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
+                imageUrl={Tdgc}
                 tags={[{label : 'figma', color: 'white',  }]}
               />
             </div>
@@ -26,9 +28,9 @@ const Design = () => {
                 backgroundColor={"#151515"}
                 titleColor={"white"}
                 textColor={"white"}
-                title="TDGC "
+                title="SMKN 4 Tangerang"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
+                imageUrl={Smkn}
                 tags={[{label : 'figma', color: 'white',  }]}
               />
             </div>
@@ -39,7 +41,7 @@ const Design = () => {
                 textColor={"white"}
                 title="Portofolio Web"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-                imageUrl={kao}
+                imageUrl={Port}
                 tags={[{label : 'figma', color: 'white',  }]}
               />
             </div>
