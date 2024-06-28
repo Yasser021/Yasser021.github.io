@@ -6,6 +6,7 @@ import Projek from "./projek";
 import Design from "./design";
 import Tech from "./tech";
 import Contact from "./contact";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Design />
       <Tech />
       <Contact />
+      <Footer />
     </div>
   );
 }
